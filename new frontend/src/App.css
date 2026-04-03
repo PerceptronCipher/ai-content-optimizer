@@ -1,0 +1,343 @@
+.navbar {
+  display: flex;
+  height: 100px;
+  background-color: #000000;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 101px;
+  flex-wrap: wrap;
+}
+.App {
+  background-color: black;
+}
+
+.logo img {
+  width: 136px;
+}
+
+.logo {
+  margin-left: 35px;
+}
+
+.nav-links a {
+  padding-right: 30px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.nav-btn {
+  margin-right: 71px;
+}
+
+.nav-btn button {
+  padding: 10px 40px;
+  background-color: #745fff;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.hero {
+  text-align: center;
+  color: white;
+}
+.hero h1 {
+  max-width: 673px;
+  margin: 0 auto;
+  font-size: 48px;
+}
+
+.hero p {
+  max-width: 673px;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 20px;
+  margin-bottom: 38px;
+}
+
+.hero-btn {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.upload-docs {
+  background-color: #745fff;
+  border: 1px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+
+.try-demo {
+  background-color: #ffffff3b;
+  padding: 15px 20px;
+  border: 1px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.upload {
+  margin-top: 71px;
+  margin-bottom: 12px;
+}
+
+.frame img {
+  width: 259px;
+  max-width: 90%;
+}
+span {
+  color: #745fff;
+}
+.paste {
+  max-width: 801px;
+  width: 85%;
+  min-height: 787px;
+  text-align: center;
+  margin: 164px auto 0 auto;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 40px 20px;
+
+  background: radial-gradient(
+    circle at top right,
+    rgba(116, 95, 255, 0.35),
+    transparent 60%
+  );
+}
+.paste h1 {
+  margin-top: 45px;
+  font-style: italic;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 42px;
+  color: white;
+}
+.paste textarea {
+  width: 718px;
+  max-width: 90%;
+  height: 231px;
+  background: rgba(255, 255, 255, 0.03);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  font-size: 18px;
+  border-radius: 24px;
+  outline: none;
+}
+.paste textarea::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+.t1 {
+  width: 718px;
+  height: 231px;
+  background-color: #000000;
+  color: 2px solid white;
+  padding: 20px;
+  font-size: 18px;
+  border-radius: 24px;
+}
+.q {
+  margin-top: 46px;
+  font-size: 28px;
+  margin-bottom: 9px;
+  color: white;
+}
+.dropdown-container {
+  display: flex;
+  flex-direction: column; /* stack vertically */
+  align-items: center; /* center all select elements horizontally */
+  gap: 15px; /* space between selects */
+  margin: 0 auto 30px auto; /* add bottom margin so button isn’t too close */
+  width: 100%; /* let it take full container width */
+  max-width: 400px; /* optional: prevent it from being too wide on big screens */
+}
+
+.dropdown-container select {
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 28px;
+  border: 1px solid #ffffff;
+  width: 100%; /* fills container */
+  background-color: transparent;
+  color: white;
+}
+.b3 {
+  padding: 15px 50px;
+  background-color: #8738db;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 23px;
+}
+.box1 {
+  margin-top: 100px;
+}
+.box1 h2 {
+  margin-bottom: 42px;
+}
+.output {
+  color: white;
+  text-align: center;
+}
+.output-card {
+  width: 324px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 16px;
+}
+.output-card img {
+  width: 28px;
+}
+.output-contain {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  justify-items: center;
+}
+.how {
+  margin-top: 65px;
+  text-align: center;
+  align-items: center;
+  color: white;
+}
+.howHeading {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 22px;
+}
+.howList {
+  list-style: none;
+  width: 286px;
+  margin: 0 auto;
+  margin-bottom: 78px;
+  padding: 0;
+}
+.howList li {
+  padding-bottom: 4px;
+}
+.hl {
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 8px;
+}
+.hl img {
+  width: 56px;
+  height: 56px;
+}
+.use {
+  margin-bottom: 18px;
+}
+.use-list li {
+  color: #8738db;
+}
+.use-list {
+  display: flex;
+  flex-direction: column; /* stack vertically */
+  gap: 20px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center; /* keeps them centered */
+  text-align: center;
+  padding-bottom: 181px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.footer-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-container h1 {
+  padding-bottom: 37px;
+}
+
+.footer-container a {
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.footer-container div {
+  margin-top: 40px;
+}
+
+.footer img {
+  width: 62px;
+}
+
+.footer-left {
+}
+.navbar {
+  padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .navbar {
+    justify-content: space-between;
+  }
+}
+@media (max-width: 768px) {
+  .paste {
+    padding: 20px;
+  }
+
+  .dropdown-container select {
+    width: 100%;
+  }
+
+  .b3 {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .navbar {
+    justify-content: center; /* center the logo */
+    height: auto;
+    margin-bottom: 60px;
+  }
+
+  .nav-links {
+    display: none; /* hide links */
+  }
+
+  .nav-btn {
+    display: none; /* hide button */
+  }
+
+  .logo {
+    margin: 70px 0 0 0; /* push logo down */
+  }
+}
